@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheet.uss?fileID=7433441132597879392&amp;guid=0db11373e54098b4b9fa6df67f7f094b&amp;type=3#Stylesheet" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="mainMenu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center; position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+            <ui:VisualElement style="flex-grow: 1; justify-content: space-around; font-size: 89px;">
+                <ui:Label tabindex="-1" text="Ship Game" display-tooltip-when-elided="true" class="title" style="font-size: 68px; -unity-text-align: upper-center; color: rgb(255, 243, 201);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:TextField picking-mode="Ignore" name="playerName" style="width: 210px;">
+                    <ui:Label tabindex="-1" text="Player Name..." display-tooltip-when-elided="false" picking-mode="Ignore" name="playerNamePlaceholder" enable-rich-text="false" style="opacity: 0.37; overflow: visible; position: absolute; width: auto; height: auto; justify-content: center; align-self: auto; align-items: auto; color: rgb(63, 63, 63); left: 0; top: 0; right: 0; bottom: 0; -unity-text-align: middle-left; font-size: 21px; margin-left: 9px;" />
+                </ui:TextField>
+            </ui:VisualElement>
+            <ui:VisualElement name="startButtons" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center; align-items: stretch; display: flex;">
+                <ui:Button text="SIngle Player" display-tooltip-when-elided="true" name="singlePlayer" />
+                <ui:Button text="Host Game" display-tooltip-when-elided="true" name="host" />
+                <ui:Button text="Join Game" display-tooltip-when-elided="true" name="join" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); display: flex;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="serverBrowser" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; visibility: hidden;">
+            <ui:Label tabindex="-1" text="Servers" display-tooltip-when-elided="true" class="title" />
+            <ui:ScrollView>
+                <ui:VisualElement name="lobbyList" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 300px; height: 500px;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

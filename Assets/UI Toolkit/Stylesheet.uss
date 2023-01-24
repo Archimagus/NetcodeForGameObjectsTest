@@ -1,0 +1,65 @@
+Button {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(27, 51, 53);
+    border-left-color: rgb(255, 243, 186);
+    border-right-color: rgb(255, 243, 186);
+    border-top-color: rgb(255, 243, 186);
+    border-bottom-color: rgb(255, 243, 186);
+    color: rgb(255, 243, 186);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.title {
+    -unity-text-align: upper-center;
+    font-size: 76px;
+    white-space: normal;
+}
+
+.blueRegion {
+    background-color: rgb(16, 39, 38);
+    border-left-color: rgb(173, 117, 66);
+    border-right-color: rgb(173, 117, 66);
+    border-top-color: rgb(173, 117, 66);
+    border-bottom-color: rgb(173, 117, 66);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.roundedBorder {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left-color: rgb(173, 117, 66);
+    border-right-color: rgb(173, 117, 66);
+    border-top-color: rgb(173, 117, 66);
+    border-bottom-color: rgb(173, 117, 66);
+}
+
+.parchmentRegion {
+    background-color: rgb(215, 173, 121);
+    border-left-color: rgb(136, 69, 33);
+    border-right-color: rgb(136, 69, 33);
+    border-top-color: rgb(136, 69, 33);
+    border-bottom-color: rgb(136, 69, 33);
+}
